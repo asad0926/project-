@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مطعم المذاق السوداني</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    .hero { background: url('https://i.imgur.com/XWuU4Cm.jpg') center/cover no-repeat; color: white; height: 80vh; display: flex; align-items: center; justify-content: center; }
+    .menu-item { border-bottom: 1px solid #eee; padding: 10px 0; }
+  </style>
+</head>
+<body>
+
+<!-- شريط التنقل -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">المذاق السوداني</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">القائمة</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- البانر -->
+<header class="hero text-center">
+  <div>
+    <h1 class="display-4">أهلاً بيك في المذاق السوداني</h1>
+    <p class="lead">أكلات سودانية أصيلة بنكهة عصرية</p>
+  </div>
+</header>
+
+<!-- من نحن -->
+<section id="about" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2>من نحن</h2>
+    <p>مطعم يقدم أشهى المأكولات السودانية من العصيدة والملاح إلى الفول والمشويات، بنكهة البيت السوداني.</p>
+  </div>
+</section>
+
+<!-- القائمة -->
+<section id="menu" class="py-5 text-center">
+  <div class="container">
+    <h2>قائمة الطعام</h2>
+    <div class="row">
+      <div class="col-md-4 menu-item">
+        <h5>عصيدة وملاح ويكة</h5>
+        <p>2500 SDG</p>
+      </div>
+      <div class="col-md-4 menu-item">
+        <h5>فول بالطعمية</h5>
+        <p>1500 SDG</p>
+      </div>
+      <div class="col-md-4 menu-item">
+        <h5>كسرة وملاح روب</h5>
+        <p>2000 SDG</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- تواصل -->
+<section id="contact" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2>تواصل معنا</h2>
+    <p>العنوان: السوق العربي – الخرطوم</p>
+    <p>الهاتف: 249912345678+</p>
+    <p>واتساب: 249912345678+</p>
+  </div>
+</section>
+
+<!-- الفوتر -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 المذاق السوداني. كل الحقوق محفوظة.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
