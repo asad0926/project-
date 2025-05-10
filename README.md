@@ -89,7 +89,7 @@
     <div class="section">
       <h2>تواصل معي</h2>
   <p>البريد: asaadabdoarhman0926@gmail.com</p>
-      <p>0126570884 :الهاتف<p> 
+      <p>الهاتف:0126570884</p> 
     </div>
 
     <footer>
